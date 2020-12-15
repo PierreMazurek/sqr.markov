@@ -1,5 +1,9 @@
 package markov;
 
+/**
+ * La classe MarkocData permet de créer un table de Markoc et de générer des mots
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

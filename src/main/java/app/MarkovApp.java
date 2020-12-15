@@ -7,6 +7,12 @@ import java.nio.file.Paths;
 
 import markov.MarkovChain;
 
+/**
+ * @Pierre_Mazurek
+ *
+ * main de l'application Markov pour créer des objets
+ */
+
 public class MarkovApp {
 	
 	public static void main(String[] args) throws Exception {
@@ -25,7 +31,7 @@ public class MarkovApp {
     public static String readFileAsString(String fileName) throws Exception { 
         String data = ""; 
         Path path = Paths.get(fileName); 
-        data = Files.readString(path, StandardCharsets.UTF_8); 
+        data = Files.readString(path, StandardCharsets.UTF_8);
         return data; 
     } 
     

@@ -1,5 +1,11 @@
 package markov;
 
+/**
+ * @Pierre_Mazurek
+ * La classe MarkovChain permet de détailler le format de la chaîne de Markov
+ */
+
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
